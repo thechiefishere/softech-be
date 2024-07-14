@@ -18,5 +18,9 @@ sudo npm install -g npm@10.8.2
 echo "Installing pm2"
 sudo npm install -g pm2
 
+echo "Switching to source code folder"
+sudo su ec2-user
+cd ~/server_backend
+
 echo "Installing dependencies"
 npm install
