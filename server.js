@@ -10,7 +10,7 @@ app.use(express.json());
 
 // Simple API endpoint
 app.get('/', (req, res) => {
-  res.json({ message: 'Hello from the Emmanuel slash!' });
+  res.json({ message: 'Hello from the Temi slash!' });
 });
 
 app.get('/api/message', (req, res) => {
